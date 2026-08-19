@@ -1,0 +1,73 @@
+header{
+    background: linear-gradient(
+        to left,
+        red ,
+        rgb(117, 40, 133),
+        rgb(0, 51, 255)
+    );
+     list-style:none ;
+    display: flex;
+    align-items: center;
+}
+ul{
+     list-style:none ;
+    display: flex;
+}
+ul li{
+    list-style:none ;
+    display: flex;
+    margin: 30px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+ul li:hover{
+    color: rgb(219, 150, 0);
+    font-size: xx-large;
+    cursor:pointer;
+}
+footer{
+    background: linear-gradient(
+        to right,
+        rgb(0, 255, 30) ,
+        rgb(18, 204, 217),
+        rgb(217, 18, 18)
+    )
+}
+.imagenfondo{
+    background-image: url(imagenes/hamburguesafondo.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+height: 450px;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+.fondooscuro{
+    
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px ;
+    width: 60%;
+border-radius: 25px;
+}
+h2{
+    color: bisque;
+    font-size: large;
+}
+.BOTON{
+    color:rgb(33, 4, 56);
+    background-color: cornflowerblue;
+    padding: 15px 40px;
+    font-size: medium;
+    border-radius: 30px;
+    
+}
+.BOTON:hover{
+    color:rgb(230, 107, 36);
+    transform: scale(1.1);
+    cursor:pointer;
+    font-weight: bold;
+
+}
